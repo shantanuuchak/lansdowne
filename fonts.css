@@ -1,21 +1,21 @@
 @font-face {
   src: url("./fonts/coolvetica_compressed.otf");
-  font-family: "Coolvetica Compressed";
+  font-family: "Coolvetica Compressed" format("opentype");
 }
 
 @font-face {
-  src: url("./fonts/coolvetica_condensed_rg.otf");
+  src: url("./fonts/coolvetica_condensed_rg.otf") format("opentype");
   font-family: "Coolvetica Condensed";
 }
 @font-face {
-  src: url("./fonts/coolvetica_crammed_rg.otf");
+  src: url("./fonts/coolvetica_crammed_rg.otf") format("opentype");
   font-family: "Coolvetica Crammed";
 }
 @font-face {
-  src: url("./fonts/coolvetica_rg.otf");
+  src: url("./fonts/coolvetica_rg.otf") format("opentype");
   font-family: "Coolvetica";
 }
 @font-face {
-  src: url("./fonts/coolvetica_rg_it.otf");
+  src: url("./fonts/coolvetica_rg_it.otf") format("opentype");
   font-family: "Coolvetica Regular It";
 }
