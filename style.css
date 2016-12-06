@@ -11,8 +11,8 @@ body {
 }
 
 header {
-  background: url("images/placeholder.jpg");
-  height: 60vh;
+  background: url("images/banner.jpg");
+  height: 100vh;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,4 +21,5 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  filter: sepia(0.3);
 }
