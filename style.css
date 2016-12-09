@@ -29,3 +29,16 @@ header h2 {
   color: blanchedalmond;
   text-shadow: 0px 0px 10px #333333;
 }
+
+/* Attractions Section */
+section.attractions {
+  background-color: antiquewhite;
+  display: flex;
+}
+
+.attraction-box {
+}
+
+.attraction-img {
+  width: 100px;
+}
