@@ -34,11 +34,24 @@ header h2 {
 section.attractions {
   background-color: antiquewhite;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .attraction-box {
+  padding: 100px 0;
+  text-align: center;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .attraction-img {
-  width: 100px;
+  width: 50%;
+}
+
+.attraction-heading {
+  margin: 20px 0 10px;
+  font-size: 20px;
 }
