@@ -57,3 +57,10 @@ section.attractions {
 }
 
 /* Guide Section */
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #ee4b2b;
+  padding: 10px 0;
+}
