@@ -57,6 +57,14 @@ section.attractions {
 }
 
 /* Guide Section */
+.guide-box {
+  margin: 0 auto;
+}
+
+.guide-avatar {
+  width: 100px;
+  border-radius: 100%;
+}
 
 /* Footer */
 footer {
