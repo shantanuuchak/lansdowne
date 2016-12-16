@@ -8,6 +8,7 @@
 
 body {
   font-family: "Coolvetica";
+  font-size: large;
 }
 
 header {
@@ -58,7 +59,9 @@ section.attractions {
 
 /* Guide Section */
 .guide-box {
-  margin: 0 auto;
+  max-width: 400px;
+  background: #ee4c2bb3;
+  margin: 100px auto;
 }
 
 .guide-avatar {
