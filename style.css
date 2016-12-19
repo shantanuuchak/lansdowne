@@ -60,13 +60,15 @@ section.attractions {
 /* Guide Section */
 .guide-box {
   max-width: 400px;
-  background: #ee4c2bb3;
+  background: #ee4c2b7a;
   margin: 100px auto;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  border-radius: 10px;
+  border-bottom: 5px solid #ee4c2bb3;
 }
 
 .guide-avatar {
@@ -80,6 +82,10 @@ section.attractions {
 
 .guide-text {
   margin-bottom: 8px;
+}
+
+.guide-name {
+  font-family: "Coolvetica Compressed";
 }
 /* Footer */
 footer {
