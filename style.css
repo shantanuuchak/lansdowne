@@ -32,14 +32,26 @@ header h2 {
 }
 
 /* Attractions Section */
-section.attractions {
+.attractions {
   background-color: antiquewhite;
   display: flex;
   justify-content: space-evenly;
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 440px) {
+  .attractions {
+    flex-direction: column;
+  }
+
+  .attraction-box {
+    width: 80%;
+    padding: 10px;
+  }
 }
 
 .attraction-box {
-  padding: 100px 0;
+  padding: 10px 0;
   text-align: center;
   width: 30%;
   display: flex;
@@ -50,6 +62,7 @@ section.attractions {
 
 .attraction-img {
   width: 50%;
+  border-radius: 10px;
 }
 
 .attraction-heading {
