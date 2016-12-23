@@ -39,17 +39,6 @@ header h2 {
   padding: 50px 0;
 }
 
-@media screen and (max-width: 440px) {
-  .attractions {
-    flex-direction: column;
-  }
-
-  .attraction-box {
-    width: 80%;
-    padding: 10px;
-  }
-}
-
 .attraction-box {
   padding: 10px 0;
   text-align: center;
@@ -68,6 +57,18 @@ header h2 {
 .attraction-heading {
   margin: 20px 0 10px;
   font-size: 20px;
+}
+
+@media screen and (max-width: 420px) {
+  .attractions {
+    flex-direction: column;
+  }
+
+  .attraction-box {
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+  }
 }
 
 /* Guide Section */
