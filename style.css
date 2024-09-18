@@ -23,6 +23,7 @@ header {
   align-items: center;
   flex-direction: column;
   filter: sepia(0.3);
+  background-attachment: fixed;
 }
 
 header h1,
